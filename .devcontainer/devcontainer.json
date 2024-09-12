@@ -4,10 +4,10 @@
 	"service": "app",
 	"workspaceFolder": "/workspace",
 	"customizations": {
+		"settings": {
+			"terminal.integrated.shell.linux": "/bin/bash"
+		},
 		"vscode": {
-			"settings": {
-				"terminal.integrated.shell.linux": "bash"
-			},
 			"extensions": [
 				"esbenp.prettier-vscode",
 				"ms-azuretools.vscode-docker",
